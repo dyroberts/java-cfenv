@@ -1,0 +1,14 @@
+rootProject.name = 'java-cfenv-parent'
+include ':java-cfenv'
+include ':java-cfenv-test-support'
+include ':java-cfenv-jdbc'
+include ':java-cfenv-boot'
+include ':java-cfenv-boot-pivotal-scs'
+include ':java-cfenv-boot-pivotal-sso'
+
+project(':java-cfenv').projectDir = "$rootDir/java-cfenv" as File
+project(':java-cfenv-test-support').projectDir = "$rootDir/java-cfenv-test-support" as File
+project(':java-cfenv-jdbc').projectDir = "$rootDir/java-cfenv-jdbc" as File
+project(':java-cfenv-boot').projectDir = "$rootDir/java-cfenv-boot" as File
+project(':java-cfenv-boot-pivotal-scs').projectDir = "$rootDir/java-cfenv-boot-pivotal-scs" as File
+project(':java-cfenv-boot-pivotal-sso').projectDir = "$rootDir/java-cfenv-boot-pivotal-sso" as File

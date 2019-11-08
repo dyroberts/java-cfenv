@@ -1,0 +1,10 @@
+
+description = 'Java CF Env Pivotal Single Sign On'
+dependencies {
+    implementation group: 'org.springframework.boot', name: 'spring-boot', version:'2.1.1.RELEASE'
+    implementation project(':java-cfenv-boot')
+
+    testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'2.1.1.RELEASE'
+    testImplementation project(':java-cfenv-test-support')
+    testImplementation group: 'org.jmockit', name: 'jmockit', version:'1.24'
+}

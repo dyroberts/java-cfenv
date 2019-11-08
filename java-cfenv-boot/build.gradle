@@ -1,0 +1,8 @@
+description = 'Java CF Env Spring Boot'
+
+dependencies {
+    implementation group: 'org.springframework.boot', name: 'spring-boot', version:'2.1.1.RELEASE'
+    implementation project(':java-cfenv-jdbc')
+
+    testImplementation project(':java-cfenv-test-support')
+}

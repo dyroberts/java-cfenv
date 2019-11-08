@@ -1,0 +1,8 @@
+description = 'Java CF Env JDBC'
+
+dependencies {
+  implementation project(':java-cfenv')
+
+  testImplementation project(':java-cfenv-test-support')
+  testImplementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version:'2.4.1'
+}

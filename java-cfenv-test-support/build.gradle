@@ -1,0 +1,7 @@
+
+description = 'Java CF Env Test Support'
+dependencies {
+  implementation project(':java-cfenv')
+  implementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version:'2.1.1.RELEASE'
+  implementation group: 'org.jmockit', name: 'jmockit', version:'1.24'
+}
